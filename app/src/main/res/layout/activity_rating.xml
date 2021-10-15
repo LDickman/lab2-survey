@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <GridLayout-->
+<!--        android:id="@+id/spinner_grid"-->
+<!--        android:layout_width="170dp"-->
+<!--        android:layout_height="380dp"-->
+<!--        android:layout_margin="50dp"-->
+<!--        android:columnCount="1"-->
+<!--        android:rowCount="3"-->
+<!--        android:useDefaultMargins="true"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.293">-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/spinner_question_2"-->
+<!--            android:layout_width="122dp"-->
+<!--            android:layout_height="34dp"-->
+<!--            android:layout_marginBottom="100dp" />-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/spinner_question_3"-->
+<!--            android:layout_width="122dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_marginBottom="100dp" />-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/spinner_question_4"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="36dp" />-->
+
+<!--    </GridLayout>-->
+
+    <!--        app:layout_constraintTop_toBottomOf="@id/spinner_grid"-->
+
+
+    <Spinner
+        android:id="@+id/spinner_question_3"
+        android:layout_width="122dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/Question4textView"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Question4textView" />
+
+    <Spinner
+        android:id="@+id/spinner_question_2"
+        android:layout_width="122dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/Question3textView"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Question3textView" />
+
+    <Spinner
+        android:id="@+id/spinner_question_1"
+        android:layout_width="122dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/Question2textView"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Question2textView" />
+
+    <!--        app:layout_constraintTop_toBottomOf="@id/spinner_grid"-->
+
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="149dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="88dp"
+        android:onClick="onSubmitClick"
+        android:text="@string/submit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_question_3" />
+
+    <TextView
+        android:id="@+id/Question3textView"
+        android:layout_width="295dp"
+        android:layout_height="46dp"
+        android:text="@string/question_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.327"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Question2textView"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <TextView
+        android:id="@+id/Question2textView"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:text="@string/question_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <TextView
+        android:id="@+id/Question4textView"
+        android:layout_width="308dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/question_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Question3textView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

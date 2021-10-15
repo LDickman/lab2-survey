@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">lab2-survey</string>
+    <string name="sloth">Sloth</string>
+    <string name="lust">Lust</string>
+    <string name="pride">Pride</string>
+    <string name="name">Name</string>
+    <string name="question_1">Which sin represents you the most?</string>
+    <string name="question_2">On a scale of 0-5 do you view yourself as an out doors person?</string>
+    <string name="question_3">On a scale of 0-5 how often do you day dream?</string>
+    <string name="question_4">On a scale of 0-5 do you view yourself as someone that is into fashion/dressing nicely?</string>
+<!--    5 being all the time 0 being none at all.-->
+    <!--    5 being 100% and 0 being not at all-->
+    <!--    5 being will not leave the house without makeup/nice clothes and 0 being being happy with baggy clothes-->
+    <string name="submit">Submit</string>
+    <string name="wrath">Wrath</string>
+    <string name="envy">Envy</string>
+    <string name="gluttony">Gluttony</string>
+    <string name="greed">Greed</string>
+    <string name="question_1_answer">Question 1 Answer:</string>
+    <string name="question_2_answer">Question 2 Answer:</string>
+    <string name="question_3_answer">Question 3 Answer:</string>
+    <string name="question_4_answer">Question 4 Answer:</string>
+    <string name="results">Results For:</string>
+    <string name="congratulations">Congratulations you Simp for:</string>
+    <string name="next">Next</string>
+    <string-array name="number_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

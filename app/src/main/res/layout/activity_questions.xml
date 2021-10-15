@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkbox_pride"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="337dp"-->
+<!--        android:layout_marginBottom="588dp"-->
+<!--        android:onClick="onCheckboxClicked"-->
+<!--        android:text="@string/pride" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkbox_lust"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="161dp"-->
+<!--        android:layout_marginBottom="591dp"-->
+<!--        android:onClick="onCheckboxClicked"-->
+<!--        android:text="@string/lust" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkbox_sloth"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="242dp"-->
+<!--        android:layout_marginBottom="592dp"-->
+<!--        android:onClick="onCheckboxClicked"-->
+<!--        android:text="@string/sloth" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkbox_warth"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="150dp"-->
+<!--        android:layout_marginBottom="531dp"-->
+<!--        android:onClick="onCheckboxClicked"-->
+<!--        android:text="@string/wrath" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkbox_envy"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="240dp"-->
+<!--        android:layout_marginBottom="530dp"-->
+<!--        android:onClick="onCheckboxClicked"-->
+<!--        android:text="@string/envy" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkbox_gluttony"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="322dp"-->
+<!--        android:layout_marginBottom="528dp"-->
+<!--        android:onClick="onCheckboxClicked"-->
+<!--        android:text="@string/gluttony" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkbox_greed"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="65dp"-->
+<!--        android:layout_marginBottom="590dp"-->
+<!--        android:onClick="onCheckboxClicked"-->
+<!--        android:text="@string/greed" />-->
+
+    <TextView
+        android:id="@+id/Question1textView"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="566dp"
+        android:gravity="center"
+        android:text="@string/question_1"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/sin_radio_group"
+        android:layout_width="333dp"
+        android:layout_height="356dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="202dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/gluttony_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentBottom="false"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/gluttony" />
+
+        <RadioButton
+            android:id="@+id/pride_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/pride" />
+
+        <RadioButton
+            android:id="@+id/lust_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/lust" />
+
+        <RadioButton
+            android:id="@+id/wrath_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/wrath" />
+
+        <RadioButton
+            android:id="@+id/sloth_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/sloth" />
+
+        <RadioButton
+            android:id="@+id/greed_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/greed" />
+
+        <RadioButton
+            android:id="@+id/envy_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/envy" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="151dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="74dp"
+        android:onClick="onNextClick"
+        android:text="@string/next" />
+
+
+</RelativeLayout>

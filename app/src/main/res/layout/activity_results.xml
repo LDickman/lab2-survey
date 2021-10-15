@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/results"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Q1_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_1_answer"/>
+
+    <TextView
+        android:id="@+id/anwser_1"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Q2_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_2_answer"/>
+    <TextView
+        android:id="@+id/anwser_2"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Q3_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_3_answer"/>
+    <TextView
+        android:id="@+id/anwser_3"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Q4_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_4_answer"/>
+    <TextView
+        android:id="@+id/anwser_4"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/congrates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/congratulations"/>
+    <TextView
+        android:id="@+id/report"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/avatar_wrath"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:contentDescription="Satan"-->
+<!--            android:src="@drawable/warth"-->
+<!--            android:visibility="invisible"/>-->
+<!--    </LinearLayout>-->
+<!--    <ImageView-->
+<!--        android:id="@+id/avatar_wrath"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:contentDescription="Satan"-->
+<!--        android:src="@drawable/warth"-->
+<!--        android:visibility="visible"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/avatar_sloth"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/sloth"-->
+<!--        android:contentDescription="Belphegor"-->
+<!--        android:visibility="invisible"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/avatar_gluttony"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/gluttony"-->
+<!--        android:contentDescription="Beelzebub"-->
+<!--        android:visibility="invisible"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/avatar_greed"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/greed"-->
+<!--        android:contentDescription="Mammori"-->
+<!--        android:visibility="invisible"/>-->
+
+    <ImageView
+        android:id="@+id/avatar_pride"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pride"
+        android:contentDescription="Lucifer"
+        android:visibility="visible"/>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/avatar_lust"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/lust"-->
+<!--        android:contentDescription="Asmodeus"-->
+<!--        android:visibility="invisible"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/avatar_envy"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/envy"-->
+<!--        android:contentDescription="Leviathan"-->
+<!--        android:visibility="invisible"/>-->
+
+
+
+</TableLayout>

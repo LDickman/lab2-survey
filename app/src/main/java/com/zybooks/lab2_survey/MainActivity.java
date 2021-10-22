@@ -11,16 +11,17 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText userName;
+    private static EditText userName;
     Button manageButton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         userName = findViewById(R.id.submit_name);
-        String user_Name = userName.getHint().toString();
-        surveyCalculations.setUser_Name(user_Name);
+        //user_Name = userName.getText().toString();
+        //surveyCalculations.setUser_Name(user_Name);
     }
 
     public void onStartClick(View view) {
@@ -36,5 +37,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, ResultActivity.class);
             startActivity(intent);
         });
+    }
+
+    public static String getUserName() {
+        String user_Name = userName.getText().toString();
+        return user_Name;
     }
 }

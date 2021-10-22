@@ -1,6 +1,9 @@
 package com.zybooks.lab2_survey;
 
-public class surveyCalculations {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class surveyCalculations {//implements Parcelable {
     private static String name_user;
     private static String answer_for_1;
     private static String answer_for_2;
@@ -15,6 +18,32 @@ public class surveyCalculations {
     private static int acc_greed = 0;
     private static int acc_sloth = 0;
     private static int acc_envy = 0;
+
+//    protected surveyCalculations(Parcel in) {
+//        name_user = in.readString();
+//    }
+//
+//    public static final Creator<surveyCalculations> CREATOR = new Creator<surveyCalculations>() {
+//        @Override
+//        public surveyCalculations createFromParcel(Parcel in) {
+//            return new surveyCalculations(in);
+//        }
+//
+//        @Override
+//        public surveyCalculations[] newArray(int size) {
+//            return new surveyCalculations[size];
+//        }
+//    };
+//
+//    @Override
+//    public int describeContents() {
+//        return 0;
+//    }
+//
+//    @Override
+//    public void writeToParcel(Parcel parcel, int i) {
+//        parcel.writeString(name_user);
+//    }
 
     public enum SinLevel {
         PRIDE, GLUTTONY, WRATH, SLOTH, ENVY, GREED, LUST

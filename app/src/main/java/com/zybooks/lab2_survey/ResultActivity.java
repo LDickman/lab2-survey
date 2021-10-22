@@ -31,6 +31,7 @@ public class ResultActivity extends AppCompatActivity {
         setContentView(R.layout.activity_results);
         getSupportActionBar().setTitle("Report");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        String user_Name = MainActivity.getUserName();
 
         answer1TextView = findViewById(R.id.anwser_1);
         answer2TextView = findViewById(R.id.anwser_2);
@@ -39,7 +40,7 @@ public class ResultActivity extends AppCompatActivity {
         reportTextView = findViewById(R.id.report);
         UserResult = findViewById(R.id.user_name);
 
-        UserResult.setText(surveyCalculations.getUser_Name());
+        UserResult.setText(MainActivity.getUserName());//surveyCalculations.getUser_Name());
         answer1TextView.setText(surveyCalculations.getAnswer_for_1());
         answer2TextView.setText(surveyCalculations.getAnswer_for_2());
         answer3TextView.setText(surveyCalculations.getAnswer_for_3());

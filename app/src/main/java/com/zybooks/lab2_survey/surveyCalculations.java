@@ -3,7 +3,8 @@ package com.zybooks.lab2_survey;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class surveyCalculations {//implements Parcelable {
+public class surveyCalculations {
+    //implements Parcelable {
     private static String name_user;
     private static String answer_for_1;
     private static String answer_for_2;
@@ -11,7 +12,7 @@ public class surveyCalculations {//implements Parcelable {
     private static String answer_for_4;
     private static String final_name;
     private static int result;
-    private static int acc_gluttony = 0;
+    private static int acc_gluttony;
     private static int acc_pride = 0;
     private static int acc_lust = 0;
     private static int acc_wrath = 0;
@@ -102,9 +103,9 @@ public class surveyCalculations {//implements Parcelable {
         }
     }
 
-    public static void setUser_Name(String name) { name_user = name;}
+    public void setUser_Name(String name) { name_user = name;}
 
-    public static String getUser_Name() {
+    public String getUser_Name() {
         return name_user;
     }
 
